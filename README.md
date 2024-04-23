@@ -1,26 +1,35 @@
-# TCS-ion-AI-industry-project-Developing-a-Model-to-Identify-Factors-Affecting-Country-GDP
+Problem Statement
+----------------------
+An agency aims to understand the factors influencing a country’s GDP. The dataset includes data of 227 countries, encompassing parameters like population, area, literacy, and more.
 
-Problem Statement 
-An agency has decided to study the different factors that affect the country’s GDP. For this purpose, they have collected the data of 227 countries which includes – name of the country, region, population, area, population density, coastline area, net migration, infant mortality, GDP, literacy, phones per 1000, arable, crops, climate, birth-rate, deathrate, agriculture, industry, service, others.
+Dataset
+-------------
+CSV dataset: gdpWorld.csv
 
-Data Set 
-CSV dataset – gdpWorld.csv 
+Objective
+----------------
+Identify six factors affecting a country's GDP and apply linear and non-linear models to predict GDP. Compare model performance to determine the most accurate prediction.
 
-What is expected 
-Identify at least six factors that affect the GDP of a country. Apply any linear and non-linear model on the dataset with these six factors and compare the two models to find which gives a more accurate prediction. 
+Approach
+----------------
+Data Exploration: Analyze the dataset to identify relevant factors influencing GDP.
+Feature Selection: Select six factors based on their potential impact on GDP.
+Model Development:
+Linear Model: Utilize linear regression to establish a baseline prediction.
+Non-linear Model: Implement advanced non-linear models like XGBRegressor.
+Model Evaluation: Assess model performance based on accuracy, precision, and recall.
+Comparison: Compare the performance of linear and non-linear models to determine the most accurate prediction of GDP.
 
 
-In response to the Industry Assignment by TCS ion, I undertook a comprehensive study on the factors influencing a country's Gross Domestic Product (GDP). Leveraging Artificial Intelligence, I analyzed a dataset comprising 227 countries, exploring various parameters such as population, area, literacy, and more.
+Results
+-----------
+The comparative analysis of linear and non-linear models provides insights into the strengths and weaknesses of each approach in predicting GDP. This study aids in understanding the key factors driving a country's economic growth and informs decision-making processes.
 
-Methodology:
-I employed both linear and non-linear models to predict a country's GDP based on the identified factors. This holistic approach aimed to determine the model that provides the most accurate predictions.
 
-Linear Model:
-Utilizing traditional linear regression, I established a baseline for comparison. This model assumes a linear relationship between the input features and GDP.
 
-Non-linear Model:
-Incorporating advanced non-linear models, such as XGBRegressor.
 
-Results:
-The performance of both models was evaluated based on accuracy, precision, and recall. A detailed comparison revealed insights into the strengths and weaknesses of each model in predicting GDP.
+
+
+
+
 
